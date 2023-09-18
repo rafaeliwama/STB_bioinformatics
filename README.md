@@ -7,6 +7,9 @@
 
 # Dos genes até comunidades: como a Bionformática revolucionou a genética”
 
+### Instrutores: Sónia C. S. Andrade, Rafael E. Iwama, Thainá Cortez.
+
+
 Bem vindo ao mini-curso de bioinformática da 26ª Semana Temática da Biologia USP (2023).
 
 Este será o repositório da parte prática do mini-curso e ficará disponível neste link mesmo depois que o mini-curso acabar.
@@ -15,6 +18,7 @@ O GitHub é um website e um serviço de nuvem que ajuda desenvolvedores a armaze
 
 
 Acima, você verá uma série de arquivos. Os arquivos terminados em ".md", indicados pelas setas na figura abaixo, são os tutoriais para cada uma das atividades propostas.
+
 
 <img width="609" alt="image" src="https://github.com/rafaeliwama/STB_bioinformatics/assets/46658489/c10e15b1-c515-4d78-8b8a-1c44d2af4c56">
 
@@ -28,3 +32,10 @@ Este repositório contém três tutoriais:
 1. Introdução ao terminal e linhas de comando
 2. Análise de expressão diferencial
 3. Gene Ontology (GO) e GO enrichment
+
+
+A utilização de linhas de comando para a realização de tarefas de bioinformática é algo que fica mais fácil com a prática. Erros simples, como erros de digitação, são comuns e são bem chatos. A maior parte dos códigos presentes nos tutoriais desse curso devem funcionar sem maiores problemas, mas caso você tenha alguma dificuldade não hesite de nos chamar.
+
+
+Boa sorte!
+
