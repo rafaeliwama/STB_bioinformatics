@@ -9,9 +9,24 @@ de reads bruta para cada amostra por gene, e também já foi filtrado por parâm
 de qualidade, cobertura durante o mapeamento, em etapas já vistas nas práticas
 anteriores.
 
+Faça o download do repositório do mini-curso hospedado no GitHub.
+
 ```
 wget https://github.com/rafaeliwama/STB_bioinformatics.git
 ```
+
+Entre no diretório do curso.
+
+```
+cd STB_bioinformatics
+```
+
+Inspecione o conteúdo do diretório.
+```
+ls -lh
+```
+
+Note a presença de um documento tabular com formato ".tsv", chamado "genes_TxN.tsv".
 
 Visualize o documento tabular por terminal (utilizando cat, head, tail, grep e sed) ou em uma planilha comum. Veja que são apresentadas ~15 mil linhas que representam os genes, e 12 colunas, indicando cada tecido (6 tumorais, iniciadas por t, e 6 normais, iniciadas por n). Este dataset será utilizado na tentativa de identificar genes potencialmente associados ao desenvolvimento de tumores em tecidos pulmonares.
 
