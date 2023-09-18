@@ -13,3 +13,18 @@ Este será o repositório da parte prática do mini-curso e ficará disponível 
 
 O GitHub é um website e um serviço de nuvem que ajuda desenvolvedores a armazenar e desenvolver códigos de forma colaborativa. Nós utilizaremos o GitHub como um protocolo, em que os alunos do curso podem consultar a linha de comando a ser executada no terminal, ou as intruções para a realização de uma determinada atividade.
 
+
+Acima, você verá uma série de arquivos. Os arquivos terminados em ".md", indicados pelas setas na figura abaixo, são os tutoriais para cada uma das atividades propostas.
+
+<img width="609" alt="image" src="https://github.com/rafaeliwama/STB_bioinformatics/assets/46658489/c10e15b1-c515-4d78-8b8a-1c44d2af4c56">
+
+
+Além destes arquivos, você pode observar que também estão presentes arquivos ".txt" e ".tsv". O sufixo de um arquivo, normalmente, indica o tipo de arquivo. O sufixo ".md" indica que este arquivo é um arquivo readme do GitHub, que é este arquivo que você está lendo agora. Arquivos ".txt" são chamados de *plain text*, que é composto apenas por texto. Arquivos ".tsv" são arquivos ".txt", que estão formatados em uma tabela, com colunas separadas por *tab*.
+
+Ao longo destes tutoriais, você ficaram um pouco mais familiarizado com estes arquivos.
+
+Este repositório contém três tutoriais:
+
+1. Introdução ao terminal e linhas de comando
+2. Análise de expressão diferencial
+3. Gene Ontology (GO) e GO enrichment
