@@ -41,7 +41,7 @@ Selecione a comparação entre t (tumoral) e n (normal) na matriz apresentada ab
 Faça download dos resultados por meio do **segundo link** fornecido.
 
 
-Questão 01.
+**Questão 01.**
 
 a. Com base na tabela TvsN_TOP.txt e no valor de cut-off escolhido (p < 0.05), quantos genes apresentaram índices comparativos     significativos?
 
