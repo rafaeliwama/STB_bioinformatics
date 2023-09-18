@@ -1,6 +1,6 @@
-## Parte I - Introdução ao terminal
-
-# Se localizando no terminal
+# Parte I - Introdução ao terminal
+### Instrutores: Sónia C. S. Andrade, Rafael E. Iwama, Thainá Cortez.
+## Se localizando no terminal
 
 Ao entrar no terminal, você verá algo similar a isto:
 
