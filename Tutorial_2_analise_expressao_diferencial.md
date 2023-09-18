@@ -1,4 +1,5 @@
-## Análise de Expressão Diferencial
+# Análise de Expressão Diferencial
+### Instrutores: Sónia C. S. Andrade, Rafael E. Iwama, Thainá Cortez.
 
 Nesta segunda parte, faremos uma análise de expressão gênica diferencial a partir
 de um dataset obtido de tecido pulmonar de humanos sem e com crescimento
