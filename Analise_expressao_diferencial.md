@@ -27,7 +27,7 @@ Este dataset será utilizado na tentativa de identificar genes potencialmente as
 
 Acesse o site do IDE AMEX (http://www.uusmb.unam.mx/ideamex/). Insira seu e-mail e faça upload do arquivo .tsv obtido acima. Selecione a opção “DESeq2”, como abaixo:
  
-<img width="416" alt="image" src="https://github.com/rafaeliwama/STB_bioinformatics/assets/46658489/63674c04-8409-4664-a514-1069e754c0a3">
+ <img width="416" alt="image" src="https://github.com/rafaeliwama/STB_bioinformatics/assets/46658489/63674c04-8409-4664-a514-1069e754c0a3">
 
 
 
