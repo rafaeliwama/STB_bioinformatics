@@ -10,7 +10,7 @@ de qualidade, cobertura durante o mapeamento, em etapas já vistas nas práticas
 anteriores.
 
 ```
-wget 
+wget https://github.com/rafaeliwama/STB_bioinformatics.git
 ```
 
 Visualize o documento tabular por terminal (utilizando cat, head, tail, grep e sed) ou em uma planilha comum. Veja que são apresentadas ~15 mil linhas que representam os genes, e 12 colunas, indicando cada tecido (6 tumorais, iniciadas por t, e 6 normais, iniciadas por n). Este dataset será utilizado na tentativa de identificar genes potencialmente associados ao desenvolvimento de tumores em tecidos pulmonares.
