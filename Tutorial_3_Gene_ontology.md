@@ -1,5 +1,5 @@
-## Parte II - Enriquecimento de vias metabólicas (Gene Ontology)
-
+# Parte II - Enriquecimento de vias metabólicas (Gene Ontology)
+### Instrutores: Sónia C. S. Andrade, Rafael E. Iwama, Thainá Cortez.
 Na última questão, você obteve gráficos e tabelas contendo informações sobre diferenças de expressão de vários genes. Entretanto, qual o significado biológico disso? Para responder essa questão, convém fazer uma análise de enriquecimento de termos GO (Gene Ontology). Esse tipo de análise consiste em comparar a proporção de diferentes termos GO de um subconjunto de dados com uma referência. Isto é, se tivesse sorteado aleatoriamente genes desta referência, seria esperada a quantidade de qual termo GO? Dessa forma, podemos buscar se, no conjunto de genes diferencialmente expressos, existe algum termo GO mais frequente do que seria esperado se esse conjunto de genes viesse ao acaso.
 Para fazer essa análise utilizaremos o site Gene Ontology e os resultados do IDEAMAX. Siga os passos abaixo:
 
