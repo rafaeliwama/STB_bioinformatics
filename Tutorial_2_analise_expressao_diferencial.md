@@ -1,4 +1,4 @@
-# Parte 2 - Análise de Expressão Diferencial
+# Parte II - Análise de Expressão Diferencial
 ### Instrutores: Sónia C. S. Andrade, Rafael E. Iwama, Thainá Cortez.
 
 Nesta segunda parte, faremos uma análise de expressão gênica diferencial a partir
