@@ -67,9 +67,4 @@ a. Com base na tabela TvsN_TOP.txt e no valor de cut-off escolhido (p < 0.05), q
 
 b. Visualize o gráfico TvsN_plotPCA. Nele estão representados os resultados da análise de componentes principais (PCA) para o dataset. Brevemente, a PCA plota a dispersão da covariância dos dados em um gráfico bidimensional. Em outras palavras, quanto mais próximos os pontos, mais similares são suas atribuições (neste caso, perfil de expressão gênica) e, logo, quanto mais distantes, maior a diferença. Com base nestas informações e considerando a origem dos dados, levante hipóteses que expliquem a maior dispersão intragrupo das amostras tumorais. Em outras palavras, por que amostras da de tecidos tumorais apresentaram maiores diferenças entre si quando comparadas com o grupo das amostras de tecidos normais? 
 
-c. Faça download dos resultados da mesma análise, porém com valor de significância p-value < 0.001.
-
-
-Observe o gráfico TvsN_plotMA. Neste gráfico, estão representadas as contagens de cada gene (eixo x) versus o log de fold change (eixo y). O fold change, por sua vez, indica o valor (em escala logarítmica) de expressão de cada gene nas amostras Normal e Tumor (para identificar qual tecido está representado acima e abaixo da linha de corte de logFC, olhe os valores de FC na tabela TvsN.txt). Os pontos em azul indicam os genes que apresentaram diferença significativa nos valores de expressão. Observando os gráficos, há diferenças evidentes entre o número de genes diferencialmente expressos entre os dois tecidos? Qual a importância na escolha do valor de corte tanto no valor FC como de valor de significância?
-
 
