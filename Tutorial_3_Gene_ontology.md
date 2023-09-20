@@ -29,7 +29,7 @@ Selecione a opção *biological process* e clique em Export > Table.
 Questão 2.
 Houve diferença entre fazer essa análise fornecendo a lista reduzida de genes  (background) ou utilizando o banco de dados de Homo sapiens? Se sim, qual?
 
-## Parte III. Visualizando as vias enriquecidas
+## Parte IV. Visualizando as vias enriquecidas
 
 	As plataformas para análise de vias enriquecidas podem fornecer imagens ilustrativas ou tabelas. Como o Gene Ontology utilizado fornece somente tabelas, utilizaremos o REVIGO (http://revigo.irb.hr/) para visualizar esses resultados. 
 
