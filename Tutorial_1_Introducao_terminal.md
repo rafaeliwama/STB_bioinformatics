@@ -8,7 +8,7 @@ Ao entrar no terminal, você verá algo similar a isto:
 usuario@DESKTOP-00RFJVC:~$ 
 ```
 
-Em verde está indicado o nome do seu computador ou servidor. Em vermelho, o caminho (ou
+Em verde, está indicado o nome do seu computador ou servidor. Em vermelho, o caminho (ou
 endereço) no qual você se encontra. O símbolo “~” representa o caminho para seu diretório de
 usuário (também reconhecido por /home). Para checar o diretório atual o qual você se encontra,
 use o comando pwd.
