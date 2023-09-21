@@ -3,7 +3,7 @@
 Na última questão, você obteve gráficos e tabelas contendo informações sobre diferenças de expressão de vários genes. Entretanto, qual o significado biológico disso? Para responder essa questão, convém fazer uma análise de enriquecimento de termos GO (Gene Ontology). Esse tipo de análise consiste em comparar a proporção de diferentes termos GO de um subconjunto de dados com uma referência. Isto é, se tivesse sorteado aleatoriamente genes desta referência, seria esperada a quantidade de qual termo GO? Dessa forma, podemos buscar se, no conjunto de genes diferencialmente expressos, existe algum termo GO mais frequente do que seria esperado se esse conjunto de genes viesse ao acaso.
 Para fazer essa análise utilizaremos o site Gene Ontology e os resultados do IDEAMAX. Siga os passos abaixo:
 
-Dentre os resultados que você obteve do IDEAMAX, existe um arquivo com a lista completa de genes (NvsT.txt) e um com a lista apenas dos genes diferencialmente expressos (NvsT_TOP.txt). Destes, separamos apenas a listas de genes total analisada e os genes super expressos para o tecido com com câncer. 
+Dentre os resultados que você obteve do IDEAMAX, existe um arquivo com a lista completa de genes (nvst.txt) e um com a lista apenas dos genes diferencialmente expressos (nvst_TOP.txt). Destes, separamos apenas a listas de genes total analisada e os genes super expressos para o tecido com com câncer. 
 
 1. Acesse o site do Gene Ontology http://geneontology.org/ 
 
@@ -30,8 +30,7 @@ Questão 2.
 Houve diferença entre fazer essa análise fornecendo a lista reduzida de genes  (background) ou utilizando o banco de dados de Homo sapiens? Se sim, qual?
 
 ## Parte IV. Visualizando as vias enriquecidas
-
-	As plataformas para análise de vias enriquecidas podem fornecer imagens ilustrativas ou tabelas. Como o Gene Ontology utilizado fornece somente tabelas, utilizaremos o REVIGO (http://revigo.irb.hr/) para visualizar esses resultados. 
+As plataformas para análise de vias enriquecidas podem fornecer imagens ilustrativas ou tabelas. Como o Gene Ontology utilizado fornece somente tabelas, utilizaremos o REVIGO (http://revigo.irb.hr/) para visualizar esses resultados. 
 
 Com o resultado do Gene Ontology (utilizando a referência reduzida, isto é, os genes do arquivo nvst.txt), **abra a tabela (aqui chamada de analysis.txt) no terminal** e execute os seguintes comandos para extrair somente os termos GO e os valores de FDR:
 
