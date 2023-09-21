@@ -13,7 +13,7 @@ anteriores.
 Faça o download do repositório do mini-curso hospedado no GitHub.
 
 ```
-wget https://github.com/rafaeliwama/STB_bioinformatics.git
+git clone https://github.com/rafaeliwama/STB_bioinformatics.git
 ```
 
 Entre no diretório do curso.
