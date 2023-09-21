@@ -29,7 +29,7 @@ Visualize informações adicionais utilizando os argumentos -l (retorna os resul
 (tamanho dos arquivos), -h (tamanhos em formato mais compreensíveis) e -a (mostra arquivos
 ocultos, isto é, cujo nome começa com “.”).
 
-Dentro da pasta dados, liste as pastas existentes usando
+Dentro da pasta atual, liste as pastas existentes usando:
 
 ```
 usuario@DESKTOP-00RFJVC:~$ ls -l -h -a
@@ -54,6 +54,7 @@ drwxrwxr-x 2 deadg deadg 2 Mar 14 15:35 pratica6
      1     2   3    4      5      6        7
 
 ```
+Algo similar ao exemplo acima deve ser exibido.
 
 Essas colunas representam:
 1. Permissões (explicado a seguir)
@@ -148,13 +149,12 @@ String7String8String9
 String*10
 ```
 
-Para encontrar determinada sequência de caracteres alvo (também chamadas de strings), deve-
-se utilizar o comando grep, o qual realizará um print das linhas que contenham os dados de
+Para encontrar determinada sequência de caracteres alvo (também chamadas de strings), deve-se utilizar o comando grep, o qual realizará um print das linhas que contenham os dados de
 busca. Por exemplo, para encontrar apenas as linhas que contenham o texto “String” no arquivo
 criado anteriormente (teste.txt), deve-se executar:
 
 ```
-usuario@DESKTOP-00RFJVC:~$ grep &quot;String&quot; text.txt
+usuario@DESKTOP-00RFJVC:~$ grep "String" text.txt
 String1~
 String2&gt;
 String7String8String9
