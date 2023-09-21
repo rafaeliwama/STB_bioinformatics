@@ -192,6 +192,7 @@ Para sobrescrever o arquivo com o resultado gerado, utilize o argumento ‘-i’
 ```
 sed -i 's/ring/outra coisa/' text.txt
 ```
+Utilize o camando "cat" para inspecionar o documento "text.txt".
 
 Repare, contudo, que dois “ring” não foram substituídos. Isto ocorreu porque o comando sed, por padrão, substitui somente a primeira string de cada linha. Para que todos os termos ‘ring’ escritos sejam substituídos por ‘outra coisa’, basta inserir um ‘g’ ao fim do argumento com as aspas. 
 
@@ -203,6 +204,7 @@ sed -i 's/ring/outra coisa/g' text.txt
 
 É possível aplicar dois comandos distintos em uma única execução. Por exemplo, para utilizar o comando grep a partir do resultado gerado pelo sed, basta adicionar ‘|’ entre os comandos:
 
+```
 usuario@DESKTOP-00RFJVC:~$ sed 's/ring/outra coisa/' text.txt | grep 'S'
 
 Stoutra coisa1~
@@ -210,9 +212,13 @@ Stoutra coisa2>
 S t r i n g 6
 Stoutra coisa7String8String9
 Stoutra coisa*10
+```
 
 Para salvar essa saída em um arquivo, use ‘>’ (“direcionar”) seguido do nome do novo arquivo.
+
+```
 usuario@DESKTOP-00RFJVC:~$ sed 's/ring/outra coisa/' text.txt |grep 'S' > nomequeeuquero.txt
+```
 
 Olhe o conteúdo do arquivo:
 
