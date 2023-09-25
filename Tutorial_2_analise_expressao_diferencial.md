@@ -35,6 +35,13 @@ Quantas colunas o documento possui?
 head genes_TxN.tsv
 ```
 
+Observe a figura abaixo:
+![Screenshot from 2023-09-25 12-12-43](https://github.com/rafaeliwama/STB_bioinformatics/assets/46658489/5b81e8e4-4d89-4037-8184-5745a5b41ec4)
+
+Note que para cada gene, há uma contagem de *reads* para cada amostra/transcriptoma (t_1, t_2, n_1, n_2 e etc.). Esta é a contagem de reads que mapeiam para cada gene.
+
+As contagens são diferentes para cada amostra, e nosso trabalho é tentar entender se as diferenças, para cada gene, entre tecidos (tumorais e normais)observadas nas contagens é estatisticamente significativo.
+
 Quantas linhas o documento possui?
 ```
 wc -l genes_TxN.tsv
