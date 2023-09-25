@@ -4,9 +4,8 @@
 
 Ao entrar no terminal, você verá algo similar a isto:
 
-```
-usuario@DESKTOP-00RFJVC:~$ 
-```
+![Screenshot from 2023-09-25 11-56-01](https://github.com/rafaeliwama/STB_bioinformatics/assets/46658489/6d047d12-d0fc-4962-ae9a-418490b5e030)
+
 
 Em verde, está indicado o nome do seu computador ou servidor. Em vermelho, o caminho (ou
 endereço) no qual você se encontra. O símbolo “~” representa o caminho para seu diretório de
@@ -323,7 +322,7 @@ genomic_location
 2R:24123251..24123251
 ```
 
-Remova as linhas em branco e, em seguida, o cabeçalho, com o comando sed (para melhor entendimento, leia o manual do comando):
+Remova as linhas em branco e, em seguida, o cabeçalho, com o comando sed (para melhor entendimento, leia o manual do comando utilizando a opção -h):
 
 ```
 usuario@DESKTOP-00RFJVC:~/ sed '/^$/d' col3 > col3a
