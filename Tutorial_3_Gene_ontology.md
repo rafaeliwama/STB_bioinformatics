@@ -6,7 +6,6 @@ Na última questão, você obteve gráficos e tabelas contendo informações sob
 
 *Gene ontology* ou simplesmente GO é um conjunto de termos com definições precisas e relações entre eles bem definidas. Estes termos nos ajudam a entender a função dos genes, através da associação entre um gene e um grupo de termos GO que representam um evento biológico ou uma estrutura. Um exemplo de termo GO é o GO:0015758, glucose transmenbrane transport (https://amigo.geneontology.org/amigo/term/GO:1904659). 
 
-
 ![Screenshot from 2023-09-25 13-44-50](https://github.com/rafaeliwama/STB_bioinformatics/assets/46658489/29b6deb8-f0f3-4267-8b25-0b8516ef3ffe)
 
 Observe na figura que além do ID, há um nome, uma ontologia e uma definição. Neste caso, o termo descreve o processo de transporte de glucose através de um membrana. Desta forma, genes associados a este termo estão possívelmente associados a esta função.
@@ -15,6 +14,13 @@ Os termos GO estão organizados de forma hierárquica, em três grandes tipos ou
 1. Processos biológicos (BP)
 2. Funções moleculares (MF)
 3. Componentes celulares (CC)
+
+As relações entre os termos GO podem ser descritas de forma gráfica, como na figura abaixo:
+![image](https://github.com/rafaeliwama/STB_bioinformatics/assets/46658489/15882f31-5c3a-4e78-ac04-0597fcf34e18)
+
+Observe que o grau de generalidade dos termos muda, depéndendo do seu nível hierárquico. Termos pertencentes a níveis altos, são mais genéricos, enquanto termos de níveis mais baixos são mais específicos.
+
+## Análise de enriquecimento de termos GO
 
 Esse tipo de análise consiste em comparar a proporção de diferentes termos GO de um subconjunto de dados com uma referência. Isto é, se tivesse sorteado aleatoriamente genes desta referência, seria esperada a quantidade de qual termo GO? Dessa forma, podemos buscar se, no conjunto de genes diferencialmente expressos, existe algum termo GO mais frequente do que seria esperado se esse conjunto de genes viesse ao acaso.
 Para fazer essa análise utilizaremos o site Gene Ontology e os resultados do IDEAMAX. Siga os passos abaixo:
@@ -33,9 +39,9 @@ Dentre os resultados que você obteve do IDEAMAX, existe um arquivo com a lista 
 4. Observe os resultados, avalie a quantidade de vias enriquecidas e quais vias metabólicas estão envolvidas. Observe os resultados para biological process e molecular function. 
 
 ***Questão 1.***
-**a.** Observe os resultados que são gerados ao selecionar as opções *“GO biological process complete”* e *“GO molecular function complete”*.  Os termos GO seguem uma hierarquia que geralmente é diagramada como um grafo acíclico direcionado. O termo parental é composto por subontologias ou GOs child, que por sua vez, contém subontologias mais específicas e todos os genes contidos em cada subontologia fazem parte do termo parental. Comparando os dois resultados (biological process e molecular function), sugira uma explicação possível para a diferença observada na profundidade hierárquica contida nas duas categorias.
+**a.** Observe os resultados que são gerados ao selecionar as opções “GO biological process complete” e “GO molecular function complete”. Os termos GO apresentam uma relação hierárquica entre eles, onde o termo "parental" é composto por subontologias ou GOs child, que por sua vez, contém subontologias mais específicas. Se conseguimos identificar ontologias mais específicas, isso indica que temos mais genes enriquecidos nessas ontologias. Comparando os dois resultados ("biological process" e "molecular function"),você poderá notar uma diferença observada na profundidade hierárquica contida nas duas categorias. Por que será que isso ocorre?
 
-Refaça a análise, porém troque a Reference list. Em vez de utilizar o banco de dados (Homo sapiens), utilize a lista com todos os genes analisados pelo IDEAMEX (nvst.txt) na aula anterior. **Para isso, ainda na página com os resultados exibidos, selecione, na opção** ***Reference List,*** **a opção “change” e então, selecione o arquivo nvst.txt (como na imagem abaixo)**. Corra a análise novamente clicando em Launch analysis. Isto poderá levar alguns minutos.
+Refaça a análise, porém troque a Reference list. Em vez de utilizar o banco de dados (*Homo sapiens*), utilize a lista com todos os genes analisados pelo IDEAMEX (nvst.txt) na aula anterior. **Para isso, ainda na página com os resultados exibidos, selecione, na opção** ***Reference List,*** **a opção “change” e então, selecione o arquivo nvst.txt (como na imagem abaixo)**. Corra a análise novamente clicando em Launch analysis. Isto poderá levar alguns minutos.
 
 <img width="1015" alt="image" src="https://github.com/rafaeliwama/STB_bioinformatics/assets/46658489/d0aa49b9-5163-4caa-ae0c-a41b2057cd43">
 
@@ -43,7 +49,7 @@ Refaça a análise, porém troque a Reference list. Em vez de utilizar o banco d
 Selecione a opção *biological process* e clique em Export > Table. 
 
 Questão 2.
-Houve diferença entre fazer essa análise fornecendo a lista reduzida de genes  (background) ou utilizando o banco de dados de Homo sapiens? Se sim, qual?
+Houve diferença entre fazer essa análise fornecendo a lista reduzida de genes  (background) ou utilizando o banco de dados de *Homo sapiens*? Se sim, qual?
 
 ## Parte IV. Visualizando as vias enriquecidas
 As plataformas para análise de vias enriquecidas podem fornecer imagens ilustrativas ou tabelas. Como o Gene Ontology utilizado fornece somente tabelas, utilizaremos o REVIGO (http://revigo.irb.hr/) para visualizar esses resultados. 
