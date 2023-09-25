@@ -5,10 +5,7 @@ Nesta segunda parte, faremos uma análise de expressão gênica diferencial a pa
 de um dataset obtido de tecido pulmonar de humanos sem e com crescimento
 tumoral (non-small cell lung cancer adenocarcinoma). Esta análise busca identificar
 quais são os genes que apresentam expressão diferencial entre os tecidos (neste
-caso, normal/não doente e tumoral). O dataset que usaremos contém a contagem
-de reads bruta para cada amostra por gene, e também já foi filtrado por parâmetros
-de qualidade, cobertura durante o mapeamento, em etapas já vistas nas práticas
-anteriores.
+caso, normal/não doente e tumoral). O dataset que usaremos é proveniente de uma bibliteca de RNA-seq, que passou por processos de filtragem de qualidade, e mapeamento. Desta forma, ele contém a contagem *reads* brutos gerados pelo sequenciador para cada amostra por gene. Vamos tentar entender melhor os nossos dados:
 
 Faça o download do repositório do mini-curso hospedado no GitHub.
 
