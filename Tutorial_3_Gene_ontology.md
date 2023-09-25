@@ -1,6 +1,22 @@
 # Parte III - Enriquecimento de vias metabólicas (Gene Ontology)
 ### Instrutores: Sónia C. S. Andrade, Rafael E. Iwama, Thainá Cortez.
-Na última questão, você obteve gráficos e tabelas contendo informações sobre diferenças de expressão de vários genes. Entretanto, qual o significado biológico disso? Para responder essa questão, convém fazer uma análise de enriquecimento de termos GO (Gene Ontology). Esse tipo de análise consiste em comparar a proporção de diferentes termos GO de um subconjunto de dados com uma referência. Isto é, se tivesse sorteado aleatoriamente genes desta referência, seria esperada a quantidade de qual termo GO? Dessa forma, podemos buscar se, no conjunto de genes diferencialmente expressos, existe algum termo GO mais frequente do que seria esperado se esse conjunto de genes viesse ao acaso.
+Na última questão, você obteve gráficos e tabelas contendo informações sobre diferenças de expressão de vários genes. Entretanto, qual o significado biológico disso? Para responder essa questão, convém fazer uma análise de enriquecimento de termos GO (Gene Ontology). 
+
+### O que é *gene ontology*?
+
+*Gene ontology* ou simplesmente GO é um conjunto de termos com definições precisas e relações entre eles bem definidas. Estes termos nos ajudam a entender a função dos genes, através da associação entre um gene e um grupo de termos GO que representam um evento biológico ou uma estrutura. Um exemplo de termo GO é o GO:0015758, glucose transmenbrane transport (https://amigo.geneontology.org/amigo/term/GO:1904659). 
+
+
+![Screenshot from 2023-09-25 13-44-50](https://github.com/rafaeliwama/STB_bioinformatics/assets/46658489/29b6deb8-f0f3-4267-8b25-0b8516ef3ffe)
+
+Observe na figura que além do ID, há um nome, uma ontologia e uma definição. Neste caso, o termo descreve o processo de transporte de glucose através de um membrana. Desta forma, genes associados a este termo estão possívelmente associados a esta função.
+
+Os termos GO estão organizados de forma hierárquica, em três grandes tipos ou domínios:
+1. Processos biológicos (BP)
+2. Funções moleculares (MF)
+3. Componentes celulares (CC)
+
+Esse tipo de análise consiste em comparar a proporção de diferentes termos GO de um subconjunto de dados com uma referência. Isto é, se tivesse sorteado aleatoriamente genes desta referência, seria esperada a quantidade de qual termo GO? Dessa forma, podemos buscar se, no conjunto de genes diferencialmente expressos, existe algum termo GO mais frequente do que seria esperado se esse conjunto de genes viesse ao acaso.
 Para fazer essa análise utilizaremos o site Gene Ontology e os resultados do IDEAMAX. Siga os passos abaixo:
 
 Dentre os resultados que você obteve do IDEAMAX, existe um arquivo com a lista completa de genes (nvst.txt) e um com a lista apenas dos genes diferencialmente expressos (nvst_TOP.txt). Destes, separamos apenas a listas de genes total analisada e os genes super expressos para o tecido com com câncer. 
