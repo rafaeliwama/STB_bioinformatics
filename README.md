@@ -37,5 +37,5 @@ Este repositório contém três tutoriais:
 A utilização de linhas de comando para a realização de tarefas de bioinformática é algo que fica mais fácil com a prática. Erros simples, como erros de digitação, são comuns e são bem chatos. A maior parte dos códigos presentes nos tutoriais desse curso devem funcionar sem maiores problemas, mas caso você tenha alguma dificuldade não hesite de nos chamar.
 
 
-Boa sorte!
+Bom trabalho!
 
