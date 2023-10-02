@@ -352,3 +352,29 @@ usuario@DESKTOP-00RFJVC:~/ wc -l sort_col3 uniq_col3
  134405 total
 
 ```
+
+## O que é uma sequencia fasta?
+
+A seguir, vamos entender o que é uma sequência fasta.
+
+Para isso, utilize o comando "cat" para printar o arquivo "seq.fasta".
+
+```
+cat seq.fasta
+```
+
+você deve obter um resultado parecido com a figura abaixo:
+
+<img width="674" alt="Screen Shot 2023-10-02 at 2 44 20 PM" src="https://github.com/rafaeliwama/STB_bioinformatics/assets/46658489/fbd9b5b3-0b8c-4f13-b247-dd63e48a2f7b">
+
+Observe que a primeira linha printada contém o o caractere ">" e uma descrição. Esta primeira linha é chamada de header e contém informações sobre a sequência que se seguira no documento. É importante destacar que o header deve estar contido em uma única linha. As linhas que se seguem o header contém a sequência, que neste caso é de DNA. Porém, sequências fasta podem conter sequencias de DNA, RNA e proteínas.
+
+Arquivos em formato fasta, podem conter múltiplas sequências. Para observar este tipo de arquivo, utilize o comando "cat" para printar o arquivo "seq2.fasta".
+
+```
+cat seq2.fasta
+```
+
+Perceba, que o arquivo contém três sequencias em formato fasta que obedecem a mesma estrutura do arquivo anterior.
+
+
