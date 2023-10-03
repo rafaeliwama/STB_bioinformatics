@@ -8,7 +8,7 @@ Na última questão, você obteve gráficos e tabelas contendo informações sob
 
 ![Screenshot from 2023-09-25 13-44-50](https://github.com/rafaeliwama/STB_bioinformatics/assets/46658489/29b6deb8-f0f3-4267-8b25-0b8516ef3ffe)
 
-Observe na figura que além do ID, há um nome, uma ontologia e uma definição. Neste caso, o termo descreve o processo de transporte de glucose através de um membrana. Desta forma, genes associados a este termo estão possívelmente associados a esta função.
+Observe na figura que além do ID, há um nome, uma ontologia e uma definição. Neste caso, o termo descreve o processo de transporte de glucose através de um membrana. Desta forma, genes associados a este termo estão, possívelmente, associados a esta função.
 
 Os termos GO estão organizados de forma hierárquica, em três grandes tipos ou domínios:
 1. Processos biológicos (BP)
