@@ -56,6 +56,7 @@ As plataformas para análise de vias enriquecidas podem fornecer imagens ilustra
 
 Com o resultado do Gene Ontology (utilizando a referência reduzida, isto é, os genes do arquivo nvst.txt), **abra a tabela (aqui chamada de analysis.txt) no terminal** e execute os seguintes comandos para extrair somente os termos GO e os valores de FDR:
 
+**Obs: Caso você tenha problemas em gerar o arquivo table_st.txt, você pode utilizar o arquivo *table.txt* presente dentro do diretório do curso.**
 
 1. Extraia o texto entre os dois parênteses, isto é, o código do termo GO, e remova as primeiras linhas de cabeçalho do arquivo:
 
@@ -74,9 +75,8 @@ cut -f8 analysis.txt | sed -e '1,12d' > FDR
 3. Junte os arquivos gerados em um único arquivo chamado *table.txt*, separando as colunas por um espaço:
 
 ```
-paste GOs FDR -d " " > table.txt
+paste GOs FDR -d " " > table_st.txt
 ```
-
 
 Agora temos a lista de GOs e seus FDRs associados. Cole a lista do arquivo table.txt no REVIGO, selecione as opções *“Medium (0.7)”, “P-value”, “Yes”, “Homo sapiens”* e *“SimRel (default)”*. 
 
