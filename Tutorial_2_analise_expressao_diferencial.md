@@ -35,7 +35,7 @@ Observe a figura abaixo:
 
 Note que para cada gene, há uma contagem de *reads* para cada amostra/transcriptoma (t_1, t_2, n_1, n_2 e etc.). Esta é a contagem de reads que mapeiam para cada gene.
 
-As contagens são diferentes para cada amostra, e nosso trabalho é tentar entender se as diferenças, para cada gene, entre tecidos (tumorais e normais)observadas nas contagens é estatisticamente significativo.
+As contagens são diferentes para cada amostra, e nosso trabalho é tentar entender se as diferenças, para cada gene, entre tecidos (tumorais e normais) observadas nas contagens é estatisticamente significativo.
 
 Quantas linhas o documento possui?
 ```
