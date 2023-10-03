@@ -355,6 +355,21 @@ usuario@DESKTOP-00RFJVC:~/ wc -l sort_col3 uniq_col3
 
 ## O que é uma sequencia fasta?
 
+Antes de começar esta parte do tutorial, vamos fazer o download deste repositório que contém os arquivos necessários para o restante desta aula.
+
+
+Faça o download do repositório do mini-curso hospedado no GitHub.
+
+```
+git clone https://github.com/rafaeliwama/STB_bioinformatics.git
+```
+
+Entre no diretório do curso.
+
+```
+cd STB_bioinformatics
+```
+
 A seguir, vamos entender o que é uma sequência fasta.
 
 Para isso, utilize o comando "cat" para printar o arquivo "seq.fasta".
