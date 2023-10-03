@@ -29,7 +29,7 @@ Ao longo destes tutoriais, você ficaram um pouco mais familiarizado com estes a
 
 Este repositório contém três tutoriais:
 
-1. Introdução ao terminal e linhas de comando
+1. Introdução ao terminal, linhas de comando, arquivos fasta e BLAST
 2. Análise de expressão diferencial
 3. Gene Ontology (GO) e GO enrichment
 
