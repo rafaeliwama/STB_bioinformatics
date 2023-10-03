@@ -375,6 +375,27 @@ Arquivos em formato fasta, podem conter múltiplas sequências. Para observar es
 cat seq2.fasta
 ```
 
-Perceba, que o arquivo contém três sequencias em formato fasta que obedecem a mesma estrutura do arquivo anterior.
+Perceba, que o arquivo contém cinco sequencias em formato fasta que obedecem a mesma estrutura do arquivo anterior. Porém as sequências não estão identificadas.
 
+Agora, nós vamos tentar identificar estas sequências utilizando a ferramenta BLAST.
 
+Clique no link a seguir: https://blast.ncbi.nlm.nih.gov/Blast.cgi
+
+Perceba que o BLAST possui diferentes ferramentas de busca que podem ser utilizadas de acordo com o tipo de sequência que nós fornecemos como input e do tipo de base de dados.
+
+1. Selecione a opção *Nucleotide BLAST*, já que estamos utilizando sequências de nucleotídeos como input e queremos utilizar a base de dados de nucleotídeos do NCBI.
+2. Copie e cole as sequências presentes no arquivo "seq2.fasta" no campo indicando na figura abaixo.
+
+<img width="491" alt="Screen Shot 2023-10-03 at 9 44 10 AM" src="https://github.com/rafaeliwama/STB_bioinformatics/assets/46658489/544f180b-47ce-48b4-aa9b-be6adc75c629">
+
+3. Deixe o restante dos parâmetros como estão e clique em *BLAST*.
+4. A página seguinte contém os resultados do *BLAST* da primeira sequência utilizada como input. Observe que os resultados das outras sequências podem ser acessados no campo especificado na figura abaixo.
+
+<img width="652" alt="Screen Shot 2023-10-03 at 9 51 14 AM" src="https://github.com/rafaeliwama/STB_bioinformatics/assets/46658489/4cead7f4-3847-43c0-b10e-df095f3077e1">
+
+5. Para cada sequência, o blast retorna uma série de informações (figura abaixo), pertinentes ao alinhamento entre a sequência que nós fornecemos (query) e as sequências presentes na base de dados (target). O campo descrição (retângulo verde) presente na tabela contém informações sobre a sequência *target*. Observe que a table contém várias informações úteis sobre o alinhamento, como o nome da espécie da qual a sequência foi extraída, informações sobre a identidade da sequência (porcentagem de nucleotídeos idênticos entre a sequência *query* e *target*, e o *e-value*. O valor de *e-value* (retângulo vermelho) é o número de hits, de sequências aleátórias, esperado para um *Score* de um determinado valor. Quanto maior o *Score* menor o e-value. Por exemplo, um e-value de 10 significa que para um score *x*, 10 sequências aleatórias com o mesmo *Score* são esperadas. A lógica do e-value é que sequências homólogas são mais similares do que sequências não homólogas, desta forma, o *Score* de um alinhamento de sequências homólogas serão maiores do que *Scores* entre sequências não homólogas. Nós utilizamos um e-value de 1e-5 (0.00001) como significativo para se estabelecer relações de homologia entre sequências.
+
+<img width="647" alt="Screen Shot 2023-10-03 at 9 52 52 AM" src="https://github.com/rafaeliwama/STB_bioinformatics/assets/46658489/edacf379-2d13-4a99-9b59-7f5ab581f636">
+
+6. Explore as outras abas, como a aba *Alignments* apontada pela seta.
+7. Utilizando os resultados do BLAST, qual o nome das espécies às quais as sequências contidas no arquivo *seq2.fasta* pertencem?
