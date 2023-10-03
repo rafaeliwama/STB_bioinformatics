@@ -84,7 +84,5 @@ Agora temos a lista de GOs e seus FDRs associados. Cole a lista do arquivo table
 
 **Questão 3.**
 
-a. Observe os gráficos Scatterplot, Interactive Graph e o TreeMap. A partir dos resultados obtidos, crie hipóteses de possíveis associações entre as vias enriquecidas e as condições biológicas das amostras tumorais.
-
-b. Quais informações os três gráficos nos trazem? Para quais objetivos estes gráficos poderiam auxiliar?
+Observe os gráficos Scatterplot, Interactive Graph e o TreeMap. Qual você considera mais informativo?
 
