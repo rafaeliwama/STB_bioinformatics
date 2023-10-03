@@ -7,16 +7,10 @@ tumoral (non-small cell lung cancer adenocarcinoma). Esta análise busca identif
 quais são os genes que apresentam expressão diferencial entre os tecidos (neste
 caso, normal/não doente e tumoral). O dataset que usaremos é proveniente de uma bibliteca de RNA-seq, que passou por processos de filtragem de qualidade, e mapeamento. Desta forma, ele contém a contagem *reads* brutos gerados pelo sequenciador para cada amostra por gene. Vamos tentar entender melhor os nossos dados:
 
-Faça o download do repositório do mini-curso hospedado no GitHub.
+Certifique-se que vc está no diretório STB_bioinformatics:
 
 ```
-git clone https://github.com/rafaeliwama/STB_bioinformatics.git
-```
-
-Entre no diretório do curso.
-
-```
-cd STB_bioinformatics
+pwd STB_bioinformatics
 ```
 
 Inspecione o conteúdo do diretório.
@@ -31,6 +25,7 @@ Visualize o documento tabular por terminal (utilizando cat, head, tail, grep e s
 Exemplos de como inspecionar o arquivo:
 
 Quantas colunas o documento possui?
+
 ```
 head genes_TxN.tsv
 ```
