@@ -66,7 +66,7 @@ Faça download dos resultados por meio do **segundo link** fornecido.
 Você pode extrair os arquivos compactados com o comando abaixo:
 
 ```
-tar xvfz DiffExpAllResults.tar
+tar xvfz DiffExpAllResults.tar.gz
 ```
 
 
