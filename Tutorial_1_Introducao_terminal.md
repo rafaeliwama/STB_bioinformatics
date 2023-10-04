@@ -1,4 +1,4 @@
-# Parte I - Introdução ao terminal
+# Parte I - Introdução ao terminal, linhas de comando, arquivos fasta e BLAST
 ### Instrutores: Sónia C. S. Andrade, Rafael E. Iwama, Thainá Cortez.
 ## Se localizando no terminal
 
