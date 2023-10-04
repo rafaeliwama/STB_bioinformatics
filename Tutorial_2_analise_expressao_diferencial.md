@@ -63,6 +63,12 @@ Selecione a comparação entre t (tumoral) e n (normal) na matriz apresentada ab
 
 Faça download dos resultados por meio do **segundo link** fornecido.
 
+Você pode extrair os arquivos compactados com o comando abaixo:
+
+```
+tar xvfz DiffExpAllResults.tar
+```
+
 
 **Questão 01.**
 
