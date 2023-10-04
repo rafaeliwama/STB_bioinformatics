@@ -14,7 +14,14 @@ use o comando pwd.
 
 ```
 usuario@DESKTOP-00RFJVC:~$ pwd
-/home/user
+/home/aluno
+```
+
+Caso não esteja no diretório "/home/aluno", entre neste diretório digitando o seguinte comando:
+
+```
+usuario@DESKTOP-00RFJVC:~$ cd ~
+
 ```
 
 Para checar os diretórios e arquivos contidos no diretório em que você se encontra, use o
