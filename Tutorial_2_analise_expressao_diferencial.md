@@ -55,7 +55,11 @@ Ignore a opção de atribuir batches. E deixe os nomes das amostras como estão.
 <img width="343" alt="image" src="https://github.com/rafaeliwama/STB_bioinformatics/assets/46658489/26a53d6f-54af-4888-8514-cd34d2c920c4">
 
 
-Selecione a comparação entre t (tumoral) e n (normal) na matriz apresentada abaixo. ***O valor de p-value deve ser 0.05 e o  LogFC = 0. Marque também a opção TOP.*** Continue para submeter os dados para análise (deve demorar 5 minutos).  
+Selecione a comparação entre t (tumoral) e n (normal) na matriz apresentada abaixo.
+
+<img width="682" alt="Screen Shot 2023-10-03 at 11 02 35 PM" src="https://github.com/rafaeliwama/STB_bioinformatics/assets/46658489/45aaf632-a2dc-45e3-8f87-719507b0293f">
+
+***O valor de p-value deve ser 0.05 e o  LogFC = 0. Marque também a opção TOP.*** Continue para submeter os dados para análise (deve demorar 5 minutos).  
 
 Faça download dos resultados por meio do **segundo link** fornecido.
 
